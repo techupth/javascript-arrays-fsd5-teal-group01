@@ -12,3 +12,5 @@ const employees = [
 ];
 
 // Start coding here
+employees[1].hobbies = "Watching Basketball";
+console.log(employees[1]);
