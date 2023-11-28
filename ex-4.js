@@ -11,4 +11,18 @@ const employees = [
   },
 ];
 
-// Start coding here
+// เพิ่มข้อมูลของพนักงานคนที่ 1
+employees.push({
+  name: "Alicia",
+  age: 29,
+  hobbies: ["Shopping", "Reading novels"],
+});
+
+// เพิ่มข้อมูลของพนักงานคนที่ 2
+employees.push({
+  name: "Kody",
+  age: 19,
+  hobbies: ["Computer games", "Wakeboard"],
+});
+
+console.log(employees);

@@ -11,4 +11,7 @@ const employees = [
   },
 ];
 
-// Start coding here
+employees[1].hobbies.push("Watching basketball");
+
+console.log(employees[0]);
+console.log("Key hobbies ของ Object:", employees[0].hobbies);

@@ -21,4 +21,12 @@ const employees = [
   },
 ];
 
+// ลบ Object ของพนักงานที่ชื่อ "Kody"
+const updateEmployees = employees.filter(
+  (employee) => employee.name !== "Kody"
+);
+
+// แสดงผลลัพธ์ใน Console
+console.log(updateEmployees); // ดูค่าของ employees หลังการลบ Object ที่ชื่อ "Kody"
+
 // Start coding here
